@@ -1,6 +1,7 @@
 .PokeFlex {
   display: flex;
-  flex-direction: row: wrap;
+  flex-direction: row: 
+  flex-wrap: wrap;
   background-color: yellow;
   widht: 200px;
   height: 300px;
