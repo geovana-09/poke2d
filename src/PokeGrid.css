@@ -1,0 +1,8 @@
+.Pokegrid{
+   display:grid;
+   grid-template-columns: 50px 50px 50px;
+   gap: 50px;
+   width: 200px;
+   height: 300px;
+   align-self:center;
+}
