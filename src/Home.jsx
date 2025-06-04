@@ -1,20 +1,12 @@
 import poke from './assets/pokeapi_256.png'
 import eevee from './assets/eevee.jpg'
-import './Home.css'
-const Home = () => {
+import './PokeFlex.css'
+import PokeFlex from './PokeFlex'
+const PokeFlex = () => {
     return (
         <div>
-            <img src={poke} />
-            <img src={eevee} />
-            <img src={poke} />
-            <img src={eevee} />
-            <img src={poke} />
-            <img src={eevee} />
-            <img src={poke} />
-            <img src={eevee} />
-            <img src={poke} />
-            <img src={eevee} />
+           <PokeFlex />
         </div>           
     )
 }
-export default Home
+export default PokeFlex
